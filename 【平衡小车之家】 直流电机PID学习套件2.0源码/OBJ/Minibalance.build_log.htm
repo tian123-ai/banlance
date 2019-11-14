@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: tttt dell, lllllllll, LIC=BUUII-TFAWC-SAXDJ-USTFU-HQE6G-RX073
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+C:\Users\dell\Desktop\【平衡小车之家】 直流电机PID学习套件2.0源码\USER\Minibalance.uvprojx
+Project File Date:  08/23/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling Minibalance.c...
+Minibalance.c(21): warning:  #223-D: function "sin" declared implicitly
+       DataScope_Get_Channel_Data(500*sin(a),1); 
+Minibalance.c(22): warning:  #223-D: function "tan" declared implicitly
+       DataScope_Get_Channel_Data(500*tan(a),2); 
+Minibalance.c(23): warning:  #223-D: function "cos" declared implicitly
+       DataScope_Get_Channel_Data(500*cos(a),3); 
+Minibalance.c: 3 warnings, 0 errors
+assembling startup_stm32f10x_md.s...
+compiling key.c...
+compiling usart.c...
+compiling delay.c...
+compiling LED.C...
+compiling sys.c...
+compiling timer.c...
+compiling adc.c...
+compiling oled.c...
+compiling motor.c...
+compiling encoder.c...
+compiling exti.c...
+compiling stmflash.c...
+compiling DataScope_DP.C...
+compiling show.c...
+compiling control.c...
+linking...
+..\OBJ\Minibalance.axf: Error: L6200E: Symbol i multiply defined (by show.o and minibalance.o).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+"..\OBJ\Minibalance.axf" - 1 Error(s), 3 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\dell\Desktop\【平衡小车之家】 直流电机PID学习套件2.0源码\USER\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM3\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
